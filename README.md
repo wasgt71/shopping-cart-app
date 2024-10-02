@@ -1,0 +1,1 @@
+mock shopping cart project from TOP. This project allows the user to add products to cart, visit the cart page. Use a quantity selector to increase amount of x product in the cart. Delete option to delete all products from cart. Shop button to revisit the shop. 
