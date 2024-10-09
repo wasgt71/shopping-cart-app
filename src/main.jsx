@@ -8,6 +8,7 @@ import Cart from "./components/Cart.jsx";
 import HandleCart from "./components/addCart.jsx"
 import { CartProvider } from "./components/cartContext.jsx";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
