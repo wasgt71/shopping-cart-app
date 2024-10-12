@@ -7,7 +7,8 @@ import App from "./App.jsx";
 import Cart from "./components/Cart.jsx";
 import HandleCart from "./components/addCart.jsx"
 import { CartProvider } from "./components/cartContext.jsx";
-
+import { QuantProvider } from './components/quantitycontext.jsx';
+import { QuantDisplayProvider } from './components/quantitydisplaycontext.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CartProvider>
+      <QuantProvider>
+        <QuantDisplayProvider>
     <RouterProvider router={router} />
+    </QuantDisplayProvider>
+    </QuantProvider>
     </CartProvider>
   </StrictMode>
 );
