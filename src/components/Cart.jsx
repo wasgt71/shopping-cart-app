@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import HandleCart from "../components/addCart.jsx";
 import { Link } from "react-router-dom";
 import React from "react";
-import { useCart } from "../components/cartContext.jsx";
+import { useCart } from "../components/cartcontext.jsx";
 import { useQuantity } from "../components/quantitycontext.jsx";
 import { useQuantDisplay } from "../components/quantitydisplaycontext.jsx";
 import QuantitySelector from "../components/quantityselector.jsx";
