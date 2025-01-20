@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Product from "../components/product.jsx";
 import Cart from "../components/Cart.jsx";
 import { Outlet } from "react-router-dom";
-import { useCart } from "../components/cartContext.jsx";
+import { useCart } from "../components/cartcontext.jsx";
 
 const HandleCart = ({ delay, addingToCart }) => {
   //const [cart, setCart] = useState([]);
