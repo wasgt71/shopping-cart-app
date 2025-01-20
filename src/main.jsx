@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from "./App.jsx";
-import Cart from "./components/Cart.jsx";
+
 import HandleCart from "./components/addCart.jsx"
 import { CartProvider } from "./components/cartContext.jsx";
 import { QuantProvider } from './components/quantitycontext.jsx';
