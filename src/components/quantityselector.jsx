@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { useQuantity } from '../components/quantitycontext.jsx';
-import { useCart } from "../components/cartContext.jsx";
+import { useCart } from "../components/cartcontext.jsx";
 
 const QuantitySelector = ({onChange}) => {
     const [quantity, setQuantity] = useState(1);
