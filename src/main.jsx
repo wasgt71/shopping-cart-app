@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client';
 import App from "./App.jsx";
 import Cart from "./components/Cart.jsx"
 import HandleCart from "./components/addCart.jsx"
-import { CartProvider } from "./components/cartContext.jsx";
+import { CartProvider } from "./components/cartcontext.jsx";
 import { QuantProvider } from './components/quantitycontext.jsx';
 import { QuantDisplayProvider } from './components/quantitydisplaycontext.jsx';
 
